@@ -2,16 +2,16 @@
 
 <div class="min-h-screen text-gray-200 mt-5">
     <h1 class="text-center text-3xl font-bold mb-3">ADMIN</h1>
-    <table class="table-fixed border border-collapse border-yellow-700 w-full">
+    <table class="table-fixed">
         <thead>
             <tr>
-                <th class="text-center border border-yellow-700" colspan="2">Home Page</th>
+                <th class="text-center text-black p-2 bg-amber-400 bg-opacity-90" colspan="2">Home Page</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td class="border border-yellow-700 text-center">
-                    <div class="flex flex-col items-center justify-center text-center mt-2 mb-2">
+                <td class="w-2/3 text-center">
+                    <div class="flex flex-col items-center justify-center text-center my-4">
                         <img alt="My pic" class="rounded-full outline-double outline-3 outline-offset-5 outline-yellow-600" src="@/assets/mypic.jpg" width="100" height="100" />
                         <nav class="flex text-sm text-gray-300 mt-3 space-x-2">
                             <p class="border-r border-gray-600 pr-2">Home</p>
@@ -23,7 +23,7 @@
                         <p class="mt-2 text-gray-400 text-center">Aspiring Front-End Developer</p>
                     </div>
                 </td>
-                <td class="border border-yellow-700 text-center">
+                <td class="text-center bg-neutral-800">
                     <button class="mr-2 bg-yellow-600 rounded-xl px-6 py-2 hover:bg-yellow-800 duration-200 ease-in-out">Edit</button>
                     <button class="bg-yellow-600 rounded-xl px-6 py-2 hover:bg-yellow-800 duration-200 ease-in-out">Delete</button>
                 </td>
@@ -34,12 +34,12 @@
 
         <thead>
             <tr>
-                <th class="text-center border-b border-yellow-700" colspan="2">Profile Page</th>
+                <th class="text-center text-black p-2 bg-amber-400 bg-opacity-90" colspan="2">Profile Page</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td class="border border-yellow-700">
+                <td>
                     <div class="flex flex-col text-yellow-500">
                         <div class="mt-2">
                             <h2 class="text-lg font-bold">📚 Education</h2>
@@ -77,7 +77,7 @@
                         </div>
                     </div>
                 </td>
-                <td class="border border-yellow-700 text-center">
+                <td class="text-center bg-neutral-800">
                     <button class="mr-2 bg-yellow-600 rounded-xl px-6 py-2 hover:bg-yellow-800 duration-200 ease-in-out">Edit</button>
                     <button class="bg-yellow-600 rounded-xl px-6 py-2 hover:bg-yellow-800 duration-200 ease-in-out">Delete</button>
                 </td>
@@ -87,25 +87,25 @@
 
         <thead>
             <tr>
-                <th class="text-center border border-yellow-700" colspan="2">Certificate Page</th>
+                <th class="text-center text-black p-2 bg-amber-400 bg-opacity-90" colspan="2">Certificate Page</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td class="border border-yellow-700">
-                    <h2 class="text-lg font-bold mt-2 text-yellow-500">🎖 My Certificates</h2>
-                    <div class="flex flex-wrap max-w-full mt-3">
-                    <img alt="cert" class="p-2 m-2 w-60 h-auto" src="@/assets/AI.png"/>
-                    <img alt="cert" class="p-2 m-2 w-60 h-auto" src="@/assets/BA.png"/>
-                    <img alt="cert" class="p-2 m-2 w-60 h-auto" src="@/assets/DA.png"/>
-                    <img alt="cert" class="p-2 m-2 w-60 h-auto" src="@/assets/ITP.png"/>
-                    <img alt="cert" class="p-2 m-2 w-60 h-auto" src="@/assets/JS1.png"/>
-                    <img alt="cert" class="p-2 m-2 w-60 h-auto" src="@/assets/OCDM.png"/>
-                    <img alt="cert" class="p-2 m-2 w-60 h-auto" src="@/assets/OCI.png"/>
-                    <img alt="cert" class="p-2 m-2 w-60 h-auto" src="@/assets/SQL.png"/>
+                <td>
+                    <h2 class="text-lg text-center font-bold mt-2 text-yellow-500">🎖 My Certificates</h2>
+                    <div class="flex flex-wrap max-w-full">
+                    <img alt="cert" class="m-2 w-60 h-auto" src="@/assets/AI.png"/>
+                    <img alt="cert" class="m-2 w-60 h-auto" src="@/assets/BA.png"/>
+                    <img alt="cert" class="m-2 w-60 h-auto" src="@/assets/DA.png"/>
+                    <img alt="cert" class="m-2 w-60 h-auto" src="@/assets/ITP.png"/>
+                    <img alt="cert" class="m-2 w-60 h-auto" src="@/assets/JS1.png"/>
+                    <img alt="cert" class="m-2 w-60 h-auto" src="@/assets/OCDM.png"/>
+                    <img alt="cert" class="m-2 w-60 h-auto" src="@/assets/OCI.png"/>
+                    <img alt="cert" class="m-2 w-60 h-auto" src="@/assets/SQL.png"/>
                     </div>
                 </td>
-                <td class="border border-yellow-700 text-center">
+                <td class="text-center bg-neutral-800">
                     <button class="mr-2 bg-yellow-600 rounded-xl px-6 py-2 hover:bg-yellow-800 duration-200 ease-in-out">Edit</button>
                     <button class="bg-yellow-600 rounded-xl px-6 py-2 hover:bg-yellow-800 duration-200 ease-in-out">Delete</button>
                 </td>
